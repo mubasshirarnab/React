@@ -1,33 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      {/* A beautifull UI for showing my journey of learning React and building projects with it. I will be sharing my progress, challenges, and insights as I continue to explore the world of React development. Stay tuned for updates and feel free to reach out if you have any questions or suggestions! */}
+
+      <h1>Welcome to my React Journey!</h1>
+      <p>
+        This is a space where I will be documenting my learning process and sharing
+        my experiences as I dive into the world of React development. From
+        building small projects to tackling more complex applications, I'll be
+        sharing my progress, challenges, and insights along the way.
       </p>
+      <p>
+        Whether you're a fellow learner or an experienced developer, I hope you
+        find value in my journey and feel free to reach out if you have any
+        questions or suggestions. Let's learn and grow together in the exciting
+        world of React!
+      </p>  
+      
+      
+
     </>
   )
 }
